@@ -1,0 +1,44 @@
+<section class="blk-futebol" id="futebol">
+  <div class="wrap">
+    <p class="blk-futebol__eyebrow" data-reveal>CDO e futebol</p>
+    <h2 class="blk-futebol__titulo" data-reveal>Começou com um goleiro e virou a clínica dos jogadores</h2>
+    <p class="blk-futebol__lead" data-acende>A clínica conta que nasceu de um sonho dos irmãos Cantador. O primeiro atleta a se tratar ali foi um goleiro de Curitiba. A indicação entre jogadores fez o resto, e hoje o esporte é uma das especialidades da casa.</p>
+    <ul class="blk-futebol__cards" data-pilha>
+      <li class="blk-futebol__card" data-reveal style="--d:0ms">
+        <span class="blk-futebol__ico"><!--icone:estrela--></span>
+        <span class="blk-futebol__num" data-count="1000">1.000</span>
+        <strong>jogadores de futebol atendidos</strong>
+        <span>Número que a própria clínica publica. A maioria chegou por indicação de outro atleta.</span>
+      </li>
+      <li class="blk-futebol__card" data-reveal style="--d:90ms">
+        <span class="blk-futebol__ico"><!--icone:dente--></span>
+        <span class="blk-futebol__num">Sob medida</span>
+        <strong>Protetores bucais</strong>
+        <span>Protetor feito para a boca de quem joga, para proteger os dentes no contato e na queda.</span>
+      </li>
+      <li class="blk-futebol__card" data-reveal style="--d:180ms">
+        <span class="blk-futebol__ico"><!--icone:osso--></span>
+        <span class="blk-futebol__num">Do campo à cadeira</span>
+        <strong>Saúde bucal no esporte</strong>
+        <span>Odontologia do esporte é uma das especialidades da clínica, com o Dr. Fabio Cantador.</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<style>
+.blk-futebol{padding-block:var(--sp-section)}
+.blk-futebol__eyebrow{margin:0;font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--pulse)}
+.blk-futebol__titulo{margin:var(--sp-3) 0 0;max-width:22ch;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-futebol__lead{margin:var(--sp-3) 0 0;max-width:40rem;line-height:1.65;color:var(--ink-soft)}
+.blk-futebol__cards{list-style:none;margin:var(--sp-5) 0 0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-futebol__card{display:flex;flex-direction:column;gap:var(--sp-2);padding:var(--sp-4);background:var(--bg-2);border:1px solid var(--line);border-radius:var(--r)}
+.blk-futebol__ico{display:inline-flex;width:2.2rem;height:2.2rem;color:var(--pulse)}
+.blk-futebol__ico svg{width:100%;height:100%}
+.blk-futebol__num{font-family:var(--f-display);font-size:clamp(2rem,7vw,3rem);line-height:1.05;color:var(--brand)}
+.blk-futebol__card strong{font-size:1.05rem;color:var(--ink)}
+.blk-futebol__card span:last-child{font-size:var(--t-sm);line-height:1.55;color:var(--ink-soft)}
+@media (min-width:64rem){
+  .blk-futebol__cards{grid-template-columns:repeat(3,1fr);gap:var(--sp-4)}
+}
+</style>

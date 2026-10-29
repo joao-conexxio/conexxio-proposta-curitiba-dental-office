@@ -1,0 +1,249 @@
+{
+  "slug": "curitiba-dental-office",
+  "negocio": {
+    "nome": "Curitiba Dental Office",
+    "logo": "brand/logo.jpg",
+    "whatsapp": "5541988004199",
+    "telefone": "(41) 98800-4199",
+    "unidades": [
+      {
+        "bairro": "Cristo Rei · Curitiba",
+        "endereco": "Av. São José, 618, sala 905 – Botânico Business, Cristo Rei, Curitiba – PR, 80050-350",
+        "telefone": "(41) 98800-4199",
+        "horario": "Agendamento pelo WhatsApp"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#130e40",
+    "brand2": "#0f0b33",
+    "ink": "#292929",
+    "bg": "#ffffff",
+    "pulse": "#c8334f",
+    "radius": "4px",
+    "registro": "editorial",
+    "fontDisplay": "Playfair Display",
+    "fontBody": "Inter",
+    "tomHero": "escuro",
+    "tomCorpo": "claro"
+  },
+  "wow": { "assinatura": "esfera" },
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          { "texto": "Tratamentos", "href": "#tratamentos" },
+          { "texto": "Futebol", "href": "#futebol" },
+          { "texto": "Equipe", "href": "#equipe" },
+          { "texto": "Como funciona", "href": "#como-funciona" },
+          { "texto": "Onde fica", "href": "#unidades" }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Clínica odontológica particular · Cristo Rei",
+        "h1": "Do aparelho ao implante, no mesmo endereço",
+        "lead": "Ortodontia, implantes, lentes de porcelana e harmonização facial, com cinco dentistas especialistas e salas preparadas para tratar e operar no mesmo dia.",
+        "cta": "Agendar avaliação",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "selo": "5,0 no Google · 326 avaliações · ",
+        "cardTitulo": "Fale com a recepção",
+        "arte": "grao"
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "Alinhadores invisíveis",
+          "Implantes",
+          "Lentes de porcelana",
+          "Harmonização facial",
+          "Clareamento",
+          "Tratamento de canal",
+          "Odontopediatria",
+          "Sedação consciente",
+          "Odontologia do esporte"
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "faixa",
+      "data": {
+        "titulo": "O que os pacientes e a clínica contam",
+        "itens": [
+          { "valor": "5,0", "rotulo": "de nota no Google" },
+          { "valor": "326", "rotulo": "avaliações de pacientes", "contar": 326 },
+          { "valor": "+1.000", "rotulo": "lentes de contato dental instaladas, segundo a clínica", "contar": 1000 },
+          { "valor": "+600", "rotulo": "pacientes reabilitados com implantes, segundo a clínica", "contar": 600 }
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "Antes de tratar, planejar",
+        "citacao": "O sorriso se planeja antes de se tratar.",
+        "autor": "Curitiba Dental Office",
+        "texto": [
+          "Na avaliação, a equipe olha o sorriso, tira fotos, mede a face e conversa sobre o que você espera. Só depois indica o que faz sentido para o seu caso, inclusive quando a indicação é não fazer.",
+          "A clínica fica no Botânico Business, no Cristo Rei, com ambiente climatizado e aromatizado, TV em todas as salas e salas cirúrgicas para resolver, no mesmo dia, o que pede cirurgia."
+        ],
+        "imagem": "midia/dentista-recepcao.jpg",
+        "imagemAlt": "Dentista de braços cruzados na recepção da clínica, diante do painel com o logo Curitiba Dental Office"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Os tratamentos",
+        "lead": "Cada especialidade tem um dentista responsável. A avaliação define o que entra no seu plano e em que ordem.",
+        "itens": [
+          {
+            "nome": "Ortodontia e alinhadores invisíveis",
+            "descricao": "Alinhadores transparentes, aparelho fixo tradicional ou de safira, aparelho móvel e contenção, para adultos e crianças.",
+            "icone": "dente"
+          },
+          {
+            "nome": "Implantes e próteses",
+            "descricao": "Reabilitação com implante e prótese sobre implante, sobre dente ou sobre mucosa, feita pelo especialista em implantodontia e prótese.",
+            "icone": "osso"
+          },
+          {
+            "nome": "Lentes de porcelana",
+            "descricao": "Lâminas feitas à mão pelo protético da clínica e cimentadas com o menor desgaste possível. Nem todo caso pede lente, e a avaliação diz se o seu pede.",
+            "icone": "estrela"
+          },
+          {
+            "nome": "Harmonização facial",
+            "descricao": "Toxina botulínica, preenchimento com ácido hialurônico, fios de sustentação, bichectomia e microagulhamento.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Clareamento",
+            "descricao": "De consultório, a laser ou caseiro com moldeira, conforme a sensibilidade e o tom que você quer chegar.",
+            "icone": "sol"
+          },
+          {
+            "nome": "Tratamento de canal",
+            "descricao": "Endodontia e retratamento de canal, feitos por especialista, e clareamento do dente que já passou por canal.",
+            "icone": "microscopio"
+          },
+          {
+            "nome": "Sisos e cirurgias",
+            "descricao": "Extração de sisos inclusos ou retidos, periodontia e enxerto gengival, com sedação por óxido nitroso, sedação consciente ou anestesia geral.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "Odontopediatria",
+            "descricao": "Cuidado com os dentes de leite e acompanhamento do crescimento, no mesmo ambiente em que os pais se tratam.",
+            "icone": "bebe"
+          }
+        ]
+      }
+    },
+    {
+      "id": "galeria",
+      "variant": "mosaico",
+      "data": {
+        "titulo": "A clínica por dentro",
+        "lead": "Recepção, sala de atendimento e a parede do logo, no Botânico Business.",
+        "itens": [
+          { "imagem": "midia/recepcao.jpg", "legenda": "Recepção" },
+          { "imagem": "midia/sala.jpg", "legenda": "Sala de atendimento" },
+          { "imagem": "midia/parede-logo.jpg", "legenda": "Parede do logo" }
+        ]
+      }
+    },
+    { "custom": "blocos/futebol.html" },
+    {
+      "id": "tecnologias",
+      "variant": "grade",
+      "data": {
+        "titulo": "Estrutura para decidir e tratar no mesmo lugar",
+        "itens": [
+          { "nome": "Radiografia interproximal", "detalhe": "Feita na própria clínica", "icone": "check" },
+          { "nome": "Tomografia, panorâmica e scanner", "detalhe": "Em centro de imagem parceiro", "icone": "ultrassom" },
+          { "nome": "Salas cirúrgicas", "detalhe": "Tratamento clínico e cirúrgico no mesmo dia", "icone": "estetoscopio" },
+          { "nome": "Sedação com óxido nitroso", "detalhe": "Para quem tem medo do consultório", "icone": "pulmao" },
+          { "nome": "Laserterapia de baixa potência", "icone": "laser" }
+        ]
+      }
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Do primeiro contato ao retorno",
+        "lead": "O tratamento é só uma parte. O resto é não deixar o paciente se perder entre uma consulta e a próxima.",
+        "itens": [
+          { "titulo": "Mensagem no WhatsApp", "texto": "Você conta o que procura e escolhe o dia e o horário da avaliação.", "icone": "conversa" },
+          { "titulo": "Avaliação e planejamento", "texto": "Exame, fotos e medidas, com o dentista da especialidade que o seu caso pede.", "icone": "estetoscopio" },
+          { "titulo": "Tratamento", "texto": "Aparelho, implante, lentes ou cirurgia, conforme o plano combinado.", "icone": "dente" },
+          { "titulo": "Manutenção e retorno", "texto": "Revisão do aparelho, controle do implante, limpeza e clareamento de manutenção. A clínica avisa quando é hora de voltar.", "icone": "agenda" }
+        ]
+      }
+    },
+    {
+      "id": "corpo-clinico",
+      "variant": "monograma",
+      "data": {
+        "titulo": "Quem atende",
+        "itens": [
+          { "nome": "Lucas Cantador", "registro": "CRO-PR 40.617", "especialidade": "Clínica geral e ortodontia" },
+          { "nome": "Marcio Cantador", "registro": "CRO-PR 23.330", "especialidade": "Implantodontia e prótese" },
+          { "nome": "Fabio Cantador", "registro": "CRO-PR 36.958", "especialidade": "Odontologia do esporte" },
+          { "nome": "Bianca Caroline", "registro": "CRO-PR 36.957", "especialidade": "Endodontia" },
+          { "nome": "Vanessa Camargo", "registro": "CRO-PR 23.631", "especialidade": "Ortodontia e odontopediatria" }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Antes de agendar",
+        "itens": [
+          { "p": "Preciso de avaliação antes de qualquer tratamento?", "r": "Sim. É a avaliação que define o tratamento, o dentista responsável e a ordem do plano. Ela é marcada pelo WhatsApp." },
+          { "p": "Tenho medo de dentista. Existe sedação?", "r": "A clínica oferece sedação com óxido nitroso e sedação consciente, e anestesia geral para cirurgias que pedem. Converse sobre isso já na avaliação." },
+          { "p": "Faço o exame de imagem na clínica?", "r": "A radiografia interproximal é feita na clínica. Tomografia, panorâmica e scanner são feitos em um centro de imagem parceiro." },
+          { "p": "Crianças são atendidas?", "r": "Sim, há odontopediatria e ortodontia com a Dra. Vanessa Camargo." },
+          { "p": "Como funciona o retorno depois do tratamento?", "r": "Aparelhos e implantes pedem revisões periódicas. A clínica combina o retorno com você e avisa quando está na hora." }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica",
+        "imagem": "midia/recepcao.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Comece pela avaliação",
+        "lead": "Mande uma mensagem e escolha o horário. A clínica fica na Av. São José, no Cristo Rei, em Curitiba.",
+        "cta": "Agendar avaliação"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "aviso": "Proposta de site de demonstração, não é o site oficial da clínica. Todo tratamento é indicado após avaliação clínica, e os resultados variam de paciente para paciente."
+      }
+    }
+  ]
+}
